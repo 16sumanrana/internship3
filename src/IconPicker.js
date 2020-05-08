@@ -135,6 +135,7 @@ const IconPicker = (props) => {
                 { toIcon(showIcon) }
             </div>
             <Modal isOpen={ showModal } onRequestClose={ closeModal } contentLabel="Select an icon" >
+                <strong>Select an icon</strong>
                 <button onClick={ closeModal } style={ { float: "right" } }>Close</button>
                 <br />
                 <br />
